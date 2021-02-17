@@ -1,0 +1,30 @@
+.card {
+  width: 40%;
+  padding: 30px 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.center {
+  margin: 0 auto;
+}
+.align-center {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.full-width {
+  width: 100%;
+}
+.padding-bottom {
+  padding-bottom: 5%;
+}
+.MuiButton-outlinedPrimary {
+  color: #58a847 !important;
+  border: 1px solid #58a847 !important;
+}
+.MuiButton-outlinedPrimary:hover {
+  color: #ffff !important;
+  background-color: #58a847 !important;
+}
