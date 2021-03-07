@@ -2,11 +2,26 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import UserLogin from "./user-login";
+import UserLogin from './Login/login';
+import SignUp from './Sign-up/sign-up'
+import Dashboard from './Dashboard/dashboard'
+import { Route, Switch, BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <UserLogin />
+    <BrowserRouter>
+    <Switch>
+      <Route exact path="/">
+        <UserLogin/>
+      </Route>
+      <Route exact path="/sign-up">
+        <SignUp/>
+      </Route>
+      <Route exact path="/dashboard">
+        <Dashboard/>
+      </Route>
+    </Switch>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

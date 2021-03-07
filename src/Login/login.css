@@ -1,7 +1,8 @@
-.card {
+
+.login-card {
   width: 40%;
-  padding: 30px 16px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 9%;
+
 }
 .center {
   margin: 0 auto;
@@ -27,4 +28,14 @@
 .MuiButton-outlinedPrimary:hover {
   color: #ffff !important;
   background-color: #58a847 !important;
+}
+.sign-up-text {
+  color: #58a847;
+  text-decoration: underline;
+}
+.sign-up {
+  margin-top: 3%;
+}
+a {
+  color: #58a847;
 }
