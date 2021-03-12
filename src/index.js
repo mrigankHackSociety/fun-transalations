@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import UserLogin from './Login/login';
-import SignUp from './Sign-up/sign-up'
-import Dashboard from './Dashboard/dashboard'
+import UserLogin from './Components/Login/login';
+import SignUp from './Components/Sign-up/sign-up'
+import Dashboard from './Components/Dashboard/dashboard'
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
