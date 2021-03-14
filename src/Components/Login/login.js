@@ -44,7 +44,7 @@ const UserLogin = () => {
             </Button>
           </div>
           <div className="sign-up">
-            If you are not register. Please <Link to="/sign-up">Sign Up</Link>
+            If you are not register. Please <Link to="/sign-up" className="navigation">Sign Up</Link>
           </div>
         </div>
       </div>
