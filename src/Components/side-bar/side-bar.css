@@ -67,9 +67,8 @@
   align-items: center;
 }
 
-span {
-  margin-left: 16px;
-}
 .menu-title {
-    color: #58a847
+  color: #58a847;
+  margin-left: 16px;
+
 }
